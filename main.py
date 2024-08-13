@@ -1,5 +1,4 @@
 import pygame
-
 import random
 pygame.init
 
@@ -11,7 +10,7 @@ pygame.display.set_caption("Игра Тир")
 icon = pygame.image.load("img/f76ac4.png")
 pygame.display.set_icon(icon)
 
-taget_img = pygame.image.load()
+taget_img = pygame.image.load("img/target.phg")
 target_width = 80
 target_height = 80
 
@@ -20,8 +19,9 @@ target_y = random.randint(0, SCREEN_HEIGHT - target_height)
 
 color = (random.randint(0,255), random.randint(0,255), random.randint(0,255))
 
-target_img = pygame.image.load("img/113875-mishen-6.jpg")
+
 running = True
 while running:
     pass
+
 pygame.quit
